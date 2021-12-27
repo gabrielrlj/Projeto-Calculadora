@@ -5,8 +5,6 @@ let op;
 $(function(){
     let input = $('#input');
     input.val(''); 
-
-    $.isNumeric('55.55'); 
 });
 
 function adicionarNumeroNoInput(numero) {
