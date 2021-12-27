@@ -1,0 +1,30 @@
+table.tabela td.celula {
+    text-align: center;
+    border: 2px solid #e1e1e1;
+}
+
+.celula:hover{
+    background: #e1e1e1;
+
+}
+
+table.tabela{
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table.tabela, table.tabela thead, table.tabela tbody, table.tabela tr{
+    border-width: 0;
+}
+
+table.tabela td.celula.numero:hover{
+    border-color: blue;
+}
+
+table.tabela td.celula.operacao:hover{
+    border-color: green;
+}
+
+table.tabela td.celula.limpar:hover{
+    border-color: yellow;
+}
