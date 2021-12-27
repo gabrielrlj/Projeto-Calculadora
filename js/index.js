@@ -74,7 +74,7 @@ function fazerConta(){
                 alert('Números inválidos!');
                 limpar();
             } else{
-                $('#input').val( parseFloat(numDig) * parseFloat($('#input').val()));
+                $('#input').val( parseFloat(numDig) / parseFloat($('#input').val()));
                 apertouOp = true;
             }
             break;
